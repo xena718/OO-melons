@@ -21,8 +21,8 @@ class AbstractMelonOrder:
 
 class DomesticMelonOrder(AbstractMelonOrder):
     """A melon order within the USA."""
-    order_type = "domestic"
-    tax = 0.08
+    order_type = "domestic"   #class attributes
+    tax = 0.08  #class attributes
     # def __init__(self, species, qty):
     #     self.order_type = "domestic"
     #     self.tax = 0.08
